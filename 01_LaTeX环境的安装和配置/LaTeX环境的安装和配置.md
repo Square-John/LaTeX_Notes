@@ -8,23 +8,23 @@
 
 2. 可以选择在线安装，但是由于内容比较大，推荐使用`DVD`方式下载，如下所示
 
-   ![image-20200718083151265](assets/image-20200718083151265.png)
+   ![image-20200718083151265](https://cdn.jsdelivr.net/gh/Square-John/Image/img/image-20200718083151265.png)
 
    
 
 3. 然后
 
-   ![image-20200718083338862](assets/image-20200718083338862.png)
+   ![image-20200718083338862](https://cdn.jsdelivr.net/gh/Square-John/Image/img/image-20200718083808737.png)
 
    
 
 4. 然后
 
-   ![image-20200718083430632](assets/image-20200718083430632.png)
+   ![image-20200718083430632](https://cdn.jsdelivr.net/gh/Square-John/Image/img/image-20200718083338862.png)
 
 5. 最后从下面的列表中选择一个`.iso`文件进行下载即可
 
-   ![image-20200718083605190](assets/image-20200718083605190.png)
+   ![image-20200718083605190](https://cdn.jsdelivr.net/gh/Square-John/Image/img/image-20200718083605190.png)
 
 
 
@@ -32,13 +32,13 @@
 
 1. 下载`.iso`文件完成之后，双击打开该文件，会出现以下内容
 
-   ![image-20200718083808737](assets/image-20200718083808737.png)
+   ![image-20200718083808737](https://cdn.jsdelivr.net/gh/Square-John/Image/img/image-20200718083430632.png)
 
    
 
 2. 以管理员方式打开下面这个文件
 
-   ![image-20200718083928454](assets/image-20200718083928454.png)
+   ![image-20200718083928454](https://cdn.jsdelivr.net/gh/Square-John/Image/img/image-20200718083928454.png)
 
 3. 然后点击`安装`，接下来就是等待安装完成即可
 
@@ -64,7 +64,7 @@
 
 3. 然后保存编辑内容，打开命令行窗口，打开`test.tex`文件所在路径，例如
 
-   ![image-20200718163459059](assets/image-20200718163459059.png)
+   ![image-20200718163459059](https://cdn.jsdelivr.net/gh/Square-John/Image/img/image-20200718163459059.png)
 
 4. 然后就可以使用`latex`命令对`test.tex`文件进行编译
 
@@ -76,7 +76,7 @@
 
 5. 编译完成之后会生成如下几个文件
 
-   ![image-20200718163837700](assets/image-20200718163837700.png)
+   ![image-20200718163837700](https://cdn.jsdelivr.net/gh/Square-John/Image/img/image-20200718163837700.png)
 
 6. 然后我们可以使用`dvipdfmx`命令将`.dvi`文件转换为`.pdf`文件。
 
@@ -88,11 +88,11 @@
 
 7. 结果如下
 
-   ![image-20200718164259700](assets/image-20200718164259700.png)
+   ![image-20200718164259700](https://cdn.jsdelivr.net/gh/Square-John/Image/img/image-20200718164259700.png)
 
 8. 打开`.pdf`文件，内容如下
 
-   ![image-20200718164419292](assets/image-20200718164419292.png)
+   ![image-20200718164419292](https://cdn.jsdelivr.net/gh/Square-John/Image/img/image-20200718164419292.png)
 
 
 
@@ -110,7 +110,7 @@
 
 3. 结果如下
 
-   ![image-20200718165010364](assets/image-20200718165010364.png)
+   ![image-20200718165010364](https://cdn.jsdelivr.net/gh/Square-John/Image/img/image-20200718165010364.png)
 
 
 
@@ -141,7 +141,7 @@
 
 4. 其编译结果如下
 
-   ![image-20200718170203590](assets/image-20200718170203590.png)
+   ![image-20200718170203590](https://cdn.jsdelivr.net/gh/Square-John/Image/img/image-20200718170203590.png)
 
 5. 从上面的例子我们可以知道，**引言区**实际上也就是`\begin`前的区域，引入**宏包**的指令是`usepackage`
 
@@ -167,25 +167,25 @@
 
 2.   
 
-   ![image-20200718171354283](assets/image-20200718171354283.png)
+   ![image-20200718171354283](https://cdn.jsdelivr.net/gh/Square-John/Image/img/image-20200718171354283.png)
 
    
 
 3.  
 
-   ![image-20200718171501114](assets/image-20200718171501114.png)
+   ![image-20200718171501114](https://cdn.jsdelivr.net/gh/Square-John/Image/img/image-20200718171638810.png)
 
    
 
 4.  
 
-   ![image-20200718171638810.png](assets/image-20200718171638810.png)
+   ![image-20200718171638810.png](https://cdn.jsdelivr.net/gh/Square-John/Image/img/image-20200718171501114.png)
 
    
 
 5.  
 
-   ![image-20200718171742724.png](assets/image-20200718171742724.png)
+   ![image-20200718171742724.png](https://cdn.jsdelivr.net/gh/Square-John/Image/img/image-20200718171742724.png)
 
    
 
@@ -193,7 +193,7 @@
 
 1. 和上面配置中文界面类似，按照`选项  -> 设置TeXstudio`找到以下界面
 
-   ![image-20200718210250746](assets/image-20200718210250746.png)
+   ![image-20200718210250746](https://cdn.jsdelivr.net/gh/Square-John/Image/img/image-20200718210250746.png)
 
    
 
