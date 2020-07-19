@@ -90,7 +90,7 @@
 
 \documentclass{article}
 
-\title{First LeTeX Document} % 设置文档的标题
+\title{First LaTeX Document} % 设置文档的标题
 
 \author{Square John} % 设置文档的作者
 
@@ -111,6 +111,12 @@
 	
 \end{document}
 ```
+
+
+
+- 编译结果如下图
+
+![image-20200719191603704](assets/image-20200719191603704.png)
 
 
 
