@@ -8,13 +8,13 @@
 
 1. 首先`选项 -> 设置TeXstudio -> 构建`，设置默认编译器为`XeLaTeX`
 
-   ![image-20200719190655164](assets/image-20200719190655164.png)
+   ![image-20200719190655164](https://cdn.jsdelivr.net/gh/Square-John/Image/img/image-20200719190655164.png)
 
    
 
 2. 设置编辑器的默认编码格式为`UTF-8`
 
-   ![image-20200719190914862](assets/image-20200719190914862.png)
+   ![image-20200719190914862](https://cdn.jsdelivr.net/gh/Square-John/Image/img/image-20200719190914862.png)
 
    
 
@@ -39,7 +39,7 @@
 
    - 其编译结果如图所示
 
-   ![image-20200719193001468](assets/image-20200719193001468.png)
+   ![image-20200719193001468](https://cdn.jsdelivr.net/gh/Square-John/Image/img/image-20200719193001468.png)
 
 ##### 一些知识的先修
 
@@ -66,7 +66,7 @@
 
    - 其效果如图
 
-   ![image-20200719193946609](assets/image-20200719193946609.png)
+   ![image-20200719193946609](https://cdn.jsdelivr.net/gh/Square-John/Image/img/image-20200719193946609.png)
 
    
 
@@ -100,7 +100,7 @@
 
 - 其编译结果如下
 
-![image-20200719193446202](assets/image-20200719193446202.png)
+![image-20200719193446202](https://cdn.jsdelivr.net/gh/Square-John/Image/img/image-20200719194426217.png)
 
 
 
@@ -116,7 +116,7 @@
 
 2. 在`cmd`窗口输入上面的命令并回车之后就会出现下图这样的`ctex`帮助文档
 
-   ![image-20200719194426217](assets/image-20200719194426217.png)
+   ![image-20200719194426217](https://cdn.jsdelivr.net/gh/Square-John/Image/img/image-20200719194728450.png)
 
    
 
@@ -128,7 +128,7 @@
 
 4. 文档内容如下
 
-   ![image-20200719194728450](assets/image-20200719194728450.png)
+   ![image-20200719194728450](https://cdn.jsdelivr.net/gh/Square-John/Image/img/image-20200719193446202.png)
 
 
 
@@ -136,7 +136,7 @@
 
 1. `ctex`宏集手册中有如下的描述
 
-   ![image-20200719194940617](assets/image-20200719194940617.png)
+   ![image-20200719194940617](https://cdn.jsdelivr.net/gh/Square-John/Image/img/image-20200719194940617.png)
 
    
 
@@ -176,7 +176,7 @@
 
    - 其结果如下
 
-   ![image-20200719195506498](assets/image-20200719195506498.png)
+   ![image-20200719195506498](https://cdn.jsdelivr.net/gh/Square-John/Image/img/image-20200719195506498.png)
 
    
 
