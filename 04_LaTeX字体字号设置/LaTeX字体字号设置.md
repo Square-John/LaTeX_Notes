@@ -182,11 +182,11 @@
 
 1. 字体命令
 
-   ![image-20200720200814348](assets/image-20200720200814348.png)
+   ![image-20200720200814348](https://cdn.jsdelivr.net/gh/Square-John/Image/img/image-20200720200837023.png)
 
 2. 字号命令
 
-   ![image-20200720200837023](assets/image-20200720200837023.png)
+   ![image-20200720200837023](https://cdn.jsdelivr.net/gh/Square-John/Image/img/image-20200720200814348.png)
 
 #### 本节完整示例
 
