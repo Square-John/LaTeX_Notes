@@ -46,7 +46,7 @@
 
 - 其编译结果如下图所示
 
-![image-20200721192626346](assets/image-20200721192626346.png)
+![image-20200721192626346](https://cdn.jsdelivr.net/gh/Square-John/Image/img/image-20200721192626346.png)
 
 
 
