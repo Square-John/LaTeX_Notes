@@ -45,7 +45,7 @@
 
 - 结果如图
 
-![image-20200721205823000](assets/image-20200721205823000.png)
+![image-20200721205823000](https://cdn.jsdelivr.net/gh/Square-John/Image/img/image-20200721205823000.png)
 
 
 
