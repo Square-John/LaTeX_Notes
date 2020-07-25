@@ -93,7 +93,7 @@
 
 - 编译结果如下图
 
-![image-20200725164427699](assets/image-20200725164427699.png)
+![image-20200725164427699](https://cdn.jsdelivr.net/gh/Square-John/Image/img/image-20200725164427699.png)
 
 
 
