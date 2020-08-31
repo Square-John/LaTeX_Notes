@@ -2,7 +2,6 @@
 *.aux
 *.log
 *.pdf
-*.tex
 *.gz
 *.toc
 *.jpg
