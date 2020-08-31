@@ -1,0 +1,107 @@
+\documentclass{ctexart}
+
+\usepackage{amsmath}
+
+\begin{document}
+	
+	\section{简介}
+	LaTeX将排版内容分为文本模式和数学模式。文本模式用于普通文本排版，数学模式用于数学公式排版。
+	
+	\section{行内公式}
+	
+		\subsection{使用\$符号进行行内数学公式的排版}
+		交换律是 $ a + b = b + a $
+		
+		\subsection{使用小括号进行行内公式的排版}
+		交换律是 ( a + b = b + a )
+		
+		\subsection{使用math环境进行行内公式排版}
+		交换律是
+			\begin{math}
+				a + b = b + a
+			\end{math}
+	\section{上下标}
+	
+		\subsection{上标使用\^{}}
+		例如： $ 3x^2 + 2 - x = 0 $
+		
+		对于符合上标，使用\{\}将其括起来，否则只有\^{}后面紧接着的那一个字母才会成为上标。例如：$ 3x^{a + b} + y = z $
+		
+		\subsection{下标使用\_{}}
+		例如：$ x_1 + x_2 = 50 $
+		
+		和上标同理，符合==复合的上标需要使用\{\}括起来才能达到预期效果
+		
+	\section{希腊字母}
+	使用转义字符反斜杠加上希腊字母的英文单词，就可以表示一个希腊字母，格式为：\textbackslash + 希腊字母单词
+	
+	例如：\textbackslash alpha的结果为 $ \alpha $
+	
+	如果希腊字母单词首字母大写，就获得大写的希腊字母，例如：
+	
+	\textbackslash Gamma -> $ \Gamma $
+	
+	更多的希腊字母表示方式可以百度或者查官方文档
+	
+	\section{数学函数}
+	常用的数学函数只需要使用反斜杠加上其在数学中原本的英文表示就可以了，例如：
+	
+	\textbackslash sin -> $ \sin $
+	
+	$ sin x = 1 $
+	
+	一个比较特殊的函数是开方的函数，表示如下
+	
+	\textbackslash sqrt[根指数]{被开方数}
+	
+	例如
+	
+	$\sqrt[3]{8} = 2 $
+	
+	\section{分式}
+	可以直接使用/表示分式，例如3/4 -> $ 3/4 $ ,其结果就是和输入差不多
+	
+	还可以使用\textbackslash frac\{分子\}\{分母\}表示一个分式，例如：
+	
+	\textbackslash frac\{3\}\{4\} -> $ \frac{3}{4} $
+	
+	\section{行间公式}
+	
+		\subsection{使用\$\$符号排版行间公式}
+		加法交换律：
+		$$ a + b = b + a $$
+		
+		\subsection{使用中括号命令排版行间公式}
+		格式为\textbackslash [ 公式 \textbackslash ]
+		加法交换律：
+		\[ a + b = b + a \]
+		
+		\subsection{使用displaymath环境排版行间公式}
+		加法交换律：
+			\begin{displaymath}
+				a + b = b + a
+			\end{displaymath}
+		
+		\subsection{使用equation环境进行公式的自动编号}
+		此时不仅可以自动编号，还可以使用label和ref命令实现对公式的交叉引用，例如
+		
+		加法交换律见式\ref{commutative1}
+			\begin{equation}
+				a + b = b + a \label{commutative1}
+			\end{equation}
+		
+		\subsection{使用equation*环境实现对公式不进行编号}
+		此时不会对公式进行编号，但是区别是，普通的行间公式是不能够进行交叉引用的，但是equation*环境中的行间公式虽然没有编号但是可以进行交叉引用，其引用编号为小节号，例如
+		
+		乘法交换律见式\ref{commutative2}
+			\begin{equation*}
+				a \times b = b \times a  \label{commutative2}
+			\end{equation*}
+		
+		不过使用该环境需要引入amsmath宏包
+		
+		\subsection{一些额外说明}
+		实际上直接对普通的行间公式也是可以进行交叉引用的，也就是说其实没必要使用equation*环境
+	
+	
+\end{document}

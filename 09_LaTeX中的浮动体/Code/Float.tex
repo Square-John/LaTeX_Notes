@@ -1,0 +1,44 @@
+\documentclass{ctexart}
+
+\usepackage{graphicx}
+
+\graphicspath{{figures/}}
+
+\begin{document}
+	
+	如下图\ref{save}是一个表示保存含义的图标 \\
+	\begin{figure}[h] % h表示图片排在代码所在行
+		
+		\centering % 表示居中排版
+		
+		\includegraphics[scale=2]{save} % 引入图片
+		
+		\caption{保存图标} % 设置标题
+		
+		\label{save} % 设置标签名
+		
+	\end{figure}
+
+下面表\ref{table1}是一个成绩表
+
+	\begin{table}[h]
+		
+		\centering
+		
+		\caption{成绩表}
+		
+		\label{table1}
+		
+		\begin{tabular}{|c| c| c|}
+			
+			\hline			
+			姓名 & 语文 & 英语 \\			
+			\hline			
+			张三 & 90	 &  80 \\			
+			\hline
+			
+		\end{tabular}
+		
+	\end{table}
+	
+\end{document}

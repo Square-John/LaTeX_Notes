@@ -1,0 +1,38 @@
+\documentclass{ctexart}
+
+%\usepackage{ctex}
+
+
+% \ctexset命令用于设置中文提纲的样式，具体可以查看ctex的帮助文档
+\ctexset{
+	section/format = \Large\bfseries\raggedright
+	
+}
+
+
+\begin{document}
+	
+	\tableofcontents  % 用于生成文章的目录
+	
+	%\chapter{第一章} % 这个只有book才有
+	
+	\section{引言} % 节
+	
+	\section{实验} 
+	
+	\subsection{实验过程} % 子小节
+	
+	\subsubsection{实验步骤} % 子子小节
+	
+	\subsection{实验数据}
+	
+	\section{结论}
+	
+	 % 带*号的小节不会被进行编号，也不会被收入目录中
+	\section* {致谢}
+	
+	\paragraph{孔乙己} %篇
+	
+	\subparagraph{第一回} % 子篇
+	
+\end{document}
